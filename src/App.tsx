@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import './App.css';
+import type { JSX } from 'react';
 
 interface Project {
   name: string;
