@@ -1,0 +1,31 @@
+/* Remove default styles */
+.logo {
+  display: none;
+}
+
+/* Achievement list styling */
+.achievement-list li {
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.achievement-list li:hover {
+  opacity: 1;
+}
+
+/* Tech stack tags */
+.tech-tag {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.2rem 0.5rem;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+/* Education section */
+.education-info {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+}
