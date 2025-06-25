@@ -254,6 +254,10 @@ h6 {
     font-size: 2rem;
   }
 
+  .nav {
+    display: none;
+  }
+
   .nav ul {
     flex-direction: column;
     gap: 0.5rem;
@@ -270,3 +274,4 @@ h6 {
     gap: 1rem;
   }
 }
+
